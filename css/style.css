@@ -1,0 +1,490 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inner {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 4% 1%;
+}
+
+/* header-start */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../image/banner.png");
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-logo {
+    margin: 0px 20px 0px 20px;
+}
+
+.navigation {
+    padding: 1% 2%;
+    display: flex;
+    color: #6e828d;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pl1 {
+    position: absolute;
+    left: 8%;
+    bottom: -30px;
+}
+
+.pl2 {
+    position: absolute;
+    right: 8%;
+    bottom: -15px;
+}
+
+.menu {
+    width: 70%;
+}
+
+ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle {
+background-color: transparent;
+border: none;
+display: none;  
+}
+
+.menu .fa {
+    font-size: 30px;
+
+}
+
+.icon {
+    font-size: 1.4rem;
+    padding: 0px 15px;
+}
+
+.btn {
+    width: 220px;
+    padding: 17px 0px;
+    border: none;
+    background-color: #fec077;
+    color: #fff;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.nav-btn {
+    width: 150px;
+    padding: 15px 0px;
+    box-shadow: 2px 2px 20px 2px #eceaea;
+    color: #fec077;
+    background-color: #fff;
+}
+
+.banner-text {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.banner-text h1 {
+    font-size: 2.9rem;
+    font-weight: 600;
+    line-height: 55px;
+    color: #fec077;
+}
+
+.banner-text p {
+    font-size: 1.2rem;
+    color: #6e828d;
+    padding-right: 5%;
+    margin: 20px 0px;
+    line-height: 30px;
+}
+
+.thik {
+    margin-top: -70px;
+}
+
+.banner-text h2 {
+    letter-spacing: 9px;
+}
+
+.department-heading {
+    width: 100%;
+    text-align: center;
+}
+
+.online-education {
+    width: 100%;
+}
+
+.education {
+    width: 31.5%;
+    height: 48vh;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.box1 {
+    background-image: url("../image/online1.png");
+}
+
+.box2 {
+    background-image: url("../image/online2.png");
+}
+
+.box3 {
+    background-image: url("../image/online3.png");
+}
+
+.department-heading h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #252b39;
+}
+
+.department-heading p {
+    padding: 1% 20% 5% 20%;
+    font-size: 1.1rem;
+    color: #6e828d;
+}
+
+.online-education h1 {
+    color: #fff;
+    font-size: 2rem;
+    padding: 5% 0% 10% 0%;
+}
+
+.learn-img {
+    width: 50%;
+}
+
+.build {
+    width: 95%;
+    border: 12px solid rgb(247, 246, 228);
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.learn-text {
+    color: #6e828d;
+}
+
+.learn-img h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #252b39;
+}
+
+.learn-text .big-text {
+    font-size: 1.21rem;
+    margin: 20px 0px;
+}
+
+.learn-text p {
+    font-size: 1.1rem;
+}
+
+.student-number {
+    width: 80%;
+    padding: 50px 0px;
+}
+
+.student1 {
+    color: #ffba00;
+}
+
+.student2 {
+    color: #fe5f71;
+}
+
+.student3 {
+    color: #40cd81;
+}
+
+.number {
+    font-size: 2.7rem;
+}
+
+/*  */
+
+.university {
+    text-align: center;
+}
+
+.university-box {
+    text-align: left;
+}
+
+.uni-box {
+    width: 23%;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px 1px gray;
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+
+.l-space {
+    padding-left: 10px;
+}
+
+.uni-box h3 {
+    margin: 15px 0px 5px 0px;
+}
+
+.uni-box h4 {
+    margin: 25px 0px;
+}
+
+.u-img {
+    width: 100%;
+}
+
+/*  */
+
+.footer-full {
+    width: 100%;
+    background-color: #252d3a;
+}
+
+.footer-box {
+    width: 23%;
+}
+
+/* .logo {
+    justify-content: flex-start;
+} */
+.logo-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-text h1 {
+    margin-top: -9px;
+    color: #fff;
+}
+
+.footer-box h3 {
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.footer-box .footer-text p {
+    margin-top: -10px;
+    color: #fff;
+}
+
+.footer-box p {
+    color: #6e828d;
+    line-height: 42px;
+}
+
+.footer-bottom {
+    width: 100%;
+    background-color: #1d232f;
+    /* color: rgb(134, 132, 132); */
+    color: #6e828d;
+}
+
+.line {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: #6e828d;
+}
+
+.social {
+    width: 100%;
+    color: #6e828d;
+    font-size: 1.5rem;
+}
+
+.social-icon {
+    margin: 0px 3%;
+}
+
+.copy-box {
+    width:30%;
+}
+.policy-box{
+width: 65%;
+text-align: right;
+}
+.policy{
+    padding-left: 4%;
+}
+
+/* media-query */
+
+@media only screen and (max-width:1500px) {
+    .pl1 {
+        left: 0;
+    }
+    .pl2 {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    .nav-btn {
+        display: none;
+    }
+    .learn {
+        text-align: center;
+    }
+    .learn-img {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .learn-text {
+        width: 90%;
+    }
+    .build {
+        width: 70%;
+    }
+    .student-number {
+        margin: 0 auto;
+    }
+    .university-box {
+        padding: 1%;
+    }
+   
+    .footer-box h3{
+        padding-bottom: 3%;
+    }
+    .footer-box{
+        width: 33%;
+    }
+    .logo-box{
+        width: 100%;
+        padding-bottom: 6%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .toggle{
+        display: block ;
+        position: absolute;
+        top: 20px;
+        right:10px;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu ul{
+        display: none;
+        padding-left: 0;
+      
+    }
+    ul li{
+        padding-right:4%;
+    }
+    .uni-box {
+        width: 48%;
+    }
+    .footer-box {
+        width: 48%;
+    }
+    .online-education h1 {
+        padding-left: 1%;
+    }
+    .education {
+        width: 48%;
+    }
+    .box3 {
+        width: 50%;
+        margin: 4% auto;
+    }
+    .footer{
+        padding:4% 2%;
+    }
+    .copy-box,.policy-box{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .banner-text{
+        width: 100%;
+    }
+    
+
+.learn-text .big-text, .learn-text p{
+    text-align: justify;
+}
+}
+@media only screen and (max-width:570px) {
+    .department-heading p{
+        padding: 4% 1%;
+    }
+   
+    .education{
+        width: 80%;
+        height:400px;
+        margin:30px auto;
+       
+    }
+    .online-education h1{
+       padding-top: 400px;
+    }
+    .build{
+        width: 100%;
+    }
+    .uni-box{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .student-number{
+        width: 100%;
+    }
+    .footer-box{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .logo-box{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
